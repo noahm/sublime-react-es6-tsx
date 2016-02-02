@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-componentDidUpdate (prevProps, prevState) {
-	${1}
+componentDidUpdate(prevProps: ${1}Props, prevState: ${1}State) {
+	${2}
 }
 ]]></content>
     <tabTrigger>cdup</tabTrigger>

@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-componentWillUpdate (nextProps, nextState) {
-	${1}
+componentWillUpdate(nextProps: ${1}Props, nextState: ${1}State) {
+	${2}
 }
 ]]></content>
     <tabTrigger>cwu</tabTrigger>
