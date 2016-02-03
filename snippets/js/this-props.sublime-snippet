@@ -3,6 +3,6 @@
 this.props.${1}
 ]]></content>
     <tabTrigger>props</tabTrigger>
-    <scope>source.js</scope>
+    <scope>source.tsx</scope>
     <description>React: this.props.</description>
 </snippet>

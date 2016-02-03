@@ -5,6 +5,6 @@ componentWillReceiveProps(nextProps: ${1}Props) {
 }
 ]]></content>
     <tabTrigger>cwr</tabTrigger>
-    <scope>source.js</scope>
+    <scope>source.tsx</scope>
     <description>React: componentWillReceiveProps: fn(np) { ... }</description>
 </snippet>

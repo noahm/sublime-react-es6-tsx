@@ -5,6 +5,6 @@ componentWillUpdate(nextProps: ${1}Props, nextState: ${1}State) {
 }
 ]]></content>
     <tabTrigger>cwu</tabTrigger>
-    <scope>source.js</scope>
+    <scope>source.tsx</scope>
     <description>React: componentWillUpdate: fn(np, ns) { ... }</description>
 </snippet>

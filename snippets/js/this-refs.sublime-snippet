@@ -3,6 +3,6 @@
 this.refs.${1}
 ]]></content>
     <tabTrigger>refs</tabTrigger>
-    <scope>source.js</scope>
+    <scope>source.tsx</scope>
     <description>React: this.refs.</description>
 </snippet>

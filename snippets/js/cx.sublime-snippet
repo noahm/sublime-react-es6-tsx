@@ -5,6 +5,6 @@ cx({
 })
 ]]></content>
     <tabTrigger>cx</tabTrigger>
-    <scope>source.js</scope>
+    <scope>source.tsx</scope>
     <description>React: cx({ ... })</description>
 </snippet>

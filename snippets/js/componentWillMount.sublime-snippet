@@ -5,6 +5,6 @@ componentWillMount() {
 }
 ]]></content>
     <tabTrigger>cwm</tabTrigger>
-    <scope>source.js</scope>
+    <scope>source.tsx</scope>
     <description>React: componentWillMount: fn() { ... }</description>
 </snippet>

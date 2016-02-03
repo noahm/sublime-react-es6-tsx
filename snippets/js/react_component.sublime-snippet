@@ -27,6 +27,6 @@ export default class ${1} extends Component<${1}Props, ${1}State> {
 
 ]]></content>
     <tabTrigger>rcc</tabTrigger>
-    <scope>source.js</scope>
+    <scope>source.tsx</scope>
     <description>React: component skeleton</description>
 </snippet>

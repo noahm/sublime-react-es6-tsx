@@ -5,6 +5,6 @@ state = {
 }
 ]]></content>
     <tabTrigger>gis</tabTrigger>
-    <scope>source.js</scope>
+    <scope>source.tsx</scope>
     <description>React: getInitialState: fn() { return {...} } </description>
 </snippet>

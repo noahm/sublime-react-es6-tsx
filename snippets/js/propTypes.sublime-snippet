@@ -5,6 +5,6 @@ static propTypes = {
 }
 ]]></content>
     <tabTrigger>pt</tabTrigger>
-    <scope>source.js</scope>
+    <scope>source.tsx</scope>
     <description>React: propTypes { ... }</description>
 </snippet>
