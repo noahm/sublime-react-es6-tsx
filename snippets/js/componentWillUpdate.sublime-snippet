@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-componentWillUpdate(nextProps: ${1}Props, nextState: ${1}State) {
-	${2}
+componentWillUpdate(nextProps: ${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}Props, nextState: ${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}State) {
+    ${2}
 }
 ]]></content>
     <tabTrigger>cwu</tabTrigger>

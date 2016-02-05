@@ -7,22 +7,31 @@ import * as Radium from 'radium';
 import {Component} from '../../../components';
 
 interface ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}}Props extends React.Props<${1}> {
+    ${2:prop}: ${3:string};
 }
 
 interface ${1}State {
 }
 
 @Radium
-export default class ${1} extends Component<${1}Props, ${1}State> {
-  constructor(props: ${1}Props) {
-    super(props);
-  }
+export class ${1} extends Component<${1}Props, ${1}State> {
+    constructor(props: ${1}Props) {
+        super(props);
+    }
 
-  render() {
-    return (
-      <${5:div}></${5:div}>
-    );
-  }
+    getStyles() {
+        let palette = this.getPalette();
+        return {
+            base: {},
+        };
+    }
+
+    render() {
+        let styles = this.getStyles();
+        return (
+            <${4:div} style={styles.base} />
+        );
+    }
 }
 
 ]]></content>

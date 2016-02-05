@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
 state = {
-	${1}: ${2}
-}
+    ${1}: ${2},
+};
 ]]></content>
     <tabTrigger>gis</tabTrigger>
     <scope>source.tsx</scope>

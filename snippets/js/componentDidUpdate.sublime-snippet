@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-componentDidUpdate(prevProps: ${1}Props, prevState: ${1}State) {
-	${2}
+componentDidUpdate(prevProps: ${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}Props, prevState: ${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}State) {
+    ${1}
 }
 ]]></content>
     <tabTrigger>cdup</tabTrigger>

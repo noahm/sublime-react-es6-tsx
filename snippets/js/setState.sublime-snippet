@@ -1,6 +1,8 @@
 <snippet>
     <content><![CDATA[
-this.setState({ ${1}: ${2} });
+this.setState({
+    ${1}: ${2},
+});
 ]]></content>
     <tabTrigger>sst</tabTrigger>
     <scope>source.tsx</scope>

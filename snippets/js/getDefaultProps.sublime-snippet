@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
 static defaultProps = {
-	${1}: ${2}
-}
+    ${1}: ${2},
+};
 ]]></content>
     <tabTrigger>gdp</tabTrigger>
     <scope>source.tsx</scope>

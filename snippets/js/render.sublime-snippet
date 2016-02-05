@@ -1,9 +1,10 @@
 <snippet>
     <content><![CDATA[
 render() {
-	return (
-		${1:<div />}
-	);
+    let styles = this.getStyles();
+    return (
+        <${1:div} style={styles.base} />
+    );
 }
 ]]></content>
     <tabTrigger>ren</tabTrigger>
