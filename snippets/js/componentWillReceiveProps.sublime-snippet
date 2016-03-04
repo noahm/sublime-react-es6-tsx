@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-componentWillReceiveProps(nextProps: ${1}Props) {
+componentWillReceiveProps(nextProps: ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}}Props) {
     ${2}
 }
 ]]></content>

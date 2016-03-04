@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-componentDidUpdate(prevProps: ${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}Props, prevState: ${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}State) {
+componentDidUpdate(prevProps: ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}}Props, prevState: ${1}State) {
     ${1}
 }
 ]]></content>
