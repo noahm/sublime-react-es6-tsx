@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+this.formatMessage('${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}', '${1}')
+]]></content>
+    <tabTrigger>fmt</tabTrigger>
+    <scope>source.tsx</scope>
+    <description>React: this.formatMessage(component, msg)</description>
+</snippet>
