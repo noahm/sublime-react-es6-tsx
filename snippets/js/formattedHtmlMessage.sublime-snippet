@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+`<em class="${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}-${1}">\${htmlEncode(${2})}</em>`
+]]></content>
+    <tabTrigger>fmth</tabTrigger>
+    <scope>source.tsx</scope>
+    <description>React: HTML formatted message substitution</description>
+</snippet>
