@@ -1,6 +1,5 @@
 <snippet>
     <content><![CDATA[
-'use strict';
 import * as React from 'react';
 import * as Radium from 'radium';
 
@@ -15,7 +14,7 @@ interface ${1}State {
 
 @Radium
 export class ${1} extends Component<${1}Props, ${1}State> {
-    messages: {
+    private messages: {
         ok: string,
     };
 
@@ -26,14 +25,14 @@ export class ${1} extends Component<${1}Props, ${1}State> {
     }
 
     getStyles() {
-        let palette = this.getPalette();
+        const palette = this.getPalette();
         return {
             base: {},
         };
     }
 
     render() {
-        let styles = this.getStyles();
+        const styles = this.getStyles();
         return (
             <${4:div} style={styles.base} />
         );
