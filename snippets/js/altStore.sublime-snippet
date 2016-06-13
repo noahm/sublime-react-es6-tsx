@@ -1,0 +1,38 @@
+<snippet>
+    <content><![CDATA[
+import { actions } from '../globals';
+import { StoreBase } from './StoreBase';
+
+export interface ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}}State {
+    isReady: boolean;
+}
+
+export interface ${1} extends AltJS.AltStore<${1}State> {
+    isReady(): boolean;
+}
+
+export class ${1}Impl extends StoreBase<${1}State> implements ${1}State {
+    isReady = false;
+
+    constructor() {
+        super();
+
+         this.bindListeners({
+            // onSetReady: actions.${1}.setReady,
+         });
+
+        this.exportPublicMethods({
+            // isReady: () => this.isReady,
+        });
+    }
+
+    // private onSetReady = () => {
+    //     this.isReady = true;
+    // };
+}
+
+]]></content>
+    <tabTrigger>altstore</tabTrigger>
+    <scope>source.ts</scope>
+    <description>React: AltJS Store</description>
+</snippet>
