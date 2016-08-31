@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+constructor(props: ${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}Props) {
+    super(props);
+    this.state = {${1}};
+}
+]]></content>
+    <tabTrigger>constructor</tabTrigger>
+    <scope>source.tsx</scope>
+    <description>React: constructor: fn(props) { ... }</description>
+</snippet>
