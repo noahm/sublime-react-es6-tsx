@@ -7,9 +7,11 @@ export interface ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}}State {
     isReady: boolean;
 }
 
-export interface ${1} extends AltJS.AltStore<${1}State> {
+export interface ${1}PublicMethods {
     isReady(): boolean;
 }
+
+export interface ${1} extends AltJS.AltStore<${1}State>, ${1}PublicMethods {}
 
 export class ${1}Impl extends StoreBase<${1}State> implements ${1}State {
     isReady = false;
@@ -21,9 +23,11 @@ export class ${1}Impl extends StoreBase<${1}State> implements ${1}State {
             // onSetReady: actions.${1}.setReady,
          });
 
-        this.exportPublicMethods({
-            // isReady: () => this.isReady,
-        });
+        const publicMethods: ${1}PublicMethods = {
+            isReady: () => this.isReady,
+        };
+
+        this.exportPublicMethods(publicMethods as any);
     }
 
     // private onSetReady = () => {
